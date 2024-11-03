@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header.inicio {
+    background-color: aquamarine;
+    color: blueviolet;
+    padding: 20px;
+    text-align: center;
+}
+
+.Nomb_apell, .edad {
+    background-color: azure;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+footer{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    background-color: rgb(19, 218, 19);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #0e0000;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    header.inicio{
+    padding: 10px;
+}
+
+.Nomb_apell, .edad {
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    padding: 5px;
+}
+}

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Pagina _Web_GEN_IA"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pagina_practica"
+	}
+}
